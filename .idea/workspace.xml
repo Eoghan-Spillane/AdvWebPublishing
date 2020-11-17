@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="11f31b94-51ab-42cd-b592-07a4dd7c2f83" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iaTul2FwOuYGwn8GwHmOlSL5AH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FTP" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\College Projects\AdvWevPublishing\FTP\Lab5" />
+      <recent name="E:\College Projects\AdvWevPublishing\FTP\Lab4\Files" />
+      <recent name="E:\College Projects\AdvWevPublishing\FTP\Lab3" />
+      <recent name="E:\College Projects\WEbDevLAb1\FTP" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11f31b94-51ab-42cd-b592-07a4dd7c2f83" name="Default Changelist" comment="" />
+      <created>1602144928596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602144928596</updated>
+      <workItem from="1602144929855" duration="6369000" />
+      <workItem from="1602409270162" duration="7440000" />
+      <workItem from="1602751382387" duration="7556000" />
+      <workItem from="1603356626293" duration="1914000" />
+      <workItem from="1604567730853" duration="51000" />
+      <workItem from="1605172237964" duration="8674000" />
+      <workItem from="1605281126366" duration="4653000" />
+      <workItem from="1605362121995" duration="635000" />
+      <workItem from="1605571064030" duration="647000" />
+      <workItem from="1605614568331" duration="1407000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1163" y="69" width="1106" height="826" key="#Deployment" timestamp="1605571704237">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1163" y="69" width="1106" height="826" key="#Deployment/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@0.0.3440.1400" timestamp="1602761152864" />
+    <state x="1163" y="69" key="#Deployment/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605571704237" />
+    <state x="1163" y="69" key="#Deployment/0.0.3440.1400/-1920.357.1920.1040@0.0.3440.1400" timestamp="1605173084602" />
+    <state x="1397" y="381" key="#Options" timestamp="1605617937578">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1397" y="381" key="#Options/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605617937578" />
+    <state x="1256" y="149" key="#SSH_Configurations" timestamp="1605173903617">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1256" y="149" key="#SSH_Configurations/0.0.3440.1400/-1920.357.1920.1040@0.0.3440.1400" timestamp="1605173903617" />
+    <state x="1137" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605175114765">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1136" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@0.0.3440.1400" timestamp="1602150228724" />
+    <state x="1137" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/-1920.357.1920.1040@0.0.3440.1400" timestamp="1605175114765" />
+    <state x="1509" y="458" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602148712887">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1509" y="458" key="#com.intellij.fileTypes.FileTypeChooser/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@0.0.3440.1400" timestamp="1602148712887" />
+    <state x="1500" y="455" key="FileChooserDialogImpl" timestamp="1605571644736">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="-1083" y="679" key="FileChooserDialogImpl/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@-1920.341.1920.1040" timestamp="1602150675807" />
+    <state x="1500" y="455" key="FileChooserDialogImpl/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@0.0.3440.1400" timestamp="1602148016005" />
+    <state x="1500" y="455" key="FileChooserDialogImpl/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605571644736" />
+    <state x="1583" y="579" key="NewPhpFileDialog" timestamp="1605282983564">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1583" y="579" key="NewPhpFileDialog/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@0.0.3440.1400" timestamp="1602751813000" />
+    <state x="1583" y="579" key="NewPhpFileDialog/0.0.3440.1400/-1920.0.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605282983564" />
+    <state x="1583" y="579" key="NewPhpFileDialog/0.0.3440.1400/-1920.357.1920.1040@0.0.3440.1400" timestamp="1605175167849" />
+    <state x="1589" y="296" width="1117" height="710" key="SettingsEditor" timestamp="1605617986299">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="-1367" y="387" width="1117" height="710" key="SettingsEditor/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@-1920.341.1920.1040" timestamp="1602150892761" />
+    <state x="1589" y="296" key="SettingsEditor/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@0.0.3440.1400" timestamp="1602412537580" />
+    <state x="1589" y="296" key="SettingsEditor/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605617986299" />
+    <state x="1973" y="381" key="ftp.server.browser" timestamp="1602148020815">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1973" y="381" key="ftp.server.browser/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@0.0.3440.1400" timestamp="1602148020815" />
+    <state x="1590" y="592" key="publish.login" timestamp="1602146018272">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1590" y="592" key="publish.login/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@0.0.3440.1400" timestamp="1602146018272" />
+  </component>
+</project>
