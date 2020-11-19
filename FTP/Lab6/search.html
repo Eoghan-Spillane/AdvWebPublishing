@@ -1,0 +1,73 @@
+<html>
+    <head>
+
+        <style>
+            #output{
+                width: 300px;
+                height: 300px;
+                border: 1px solid black;
+                overflow: scroll;
+            }
+
+            .result {
+                font-family: helvetica, sans-serif;
+                background: #aaaaaa;
+                border-top: 1px solid black;
+                padding: 5px;
+            }
+
+            .result:hover {
+                background: white;
+            }
+        </style>
+
+        <title>Ajax Search</title>
+
+        <script>
+            window.onload = init;
+            function init () {document.getElementById("searchButton").onclick = startSearch;}
+
+            // This function gets called when you click on the Search Button
+
+            function startSearch() {
+                // Construct the request by adding the search term to the URL of the script
+                // (if you are using GET). You must escape the search term
+                // to make sure it is safe to use
+
+                var request = "dbsearch.php?search_term="+escape(document.getElementById('term').value);
+
+                // Set up the XMLHttpRequest object
+
+                var xhr = new XMLHttpRequest();
+                xhr.open ("GET", request);
+
+                xhr.onreadystatechange = function () {
+
+                   if (xhr.readyState == 4 && xhr.status == 200) {
+                        // When the PHP script is executed the content is produces is
+                        // available in the xhr.responseText variable. We can then
+                        // add it to the page
+                       document.getElementById("output").innerHTML = xhr.responseText;
+
+                   }
+                };
+
+                xhr.send(null);
+            }
+        </script>
+
+    </head>
+
+    <body>
+
+        <p>Type a single search term and press "Search"</p>
+        <p><input type = "text" id = "term">
+
+        <!-- We don't use a submit button with Ajax. We use a normal button instead.-->
+        <input id = "searchButton" type = "button" value = "Search">
+
+        <h1>Results</h1>
+
+        <div id = "output"></div>
+    </body>
+</html>

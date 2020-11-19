@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LiveBlog</title>
+
+    <style>
+        body{
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+            align-content: center;
+        }
+
+        /*div{*/
+        /*    display: block;*/
+        /*    margin-left: auto;*/
+        /*    margin-right: auto;*/
+        /*    width: 100%;*/
+        /*}*/
+
+        #comments{
+            align-self: center;
+            width: 600px;
+            height: 300px;
+            border: 1px solid black;
+            overflow: scroll;
+        }
+
+        .result {
+            font-family: helvetica, sans-serif;
+            background: whitesmoke;
+            border-top: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+
+    <script>
+        window.onload = init;
+
+        function init () {
+            document.getElementById("send").onclick = sendMessage;
+            getComments();
+            getUsers()
+            window.setInterval(function(){
+                getComments()
+            }, 1000);
+        }
+
+        function getComments(){
+            var request = "getComments.php?search_term="+escape("Woot");
+
+            //Set up the XMLHttpRequest object
+
+            var xhr = new XMLHttpRequest();
+            xhr.open ("GET", request);
+            //xhr.open("GET", "getComments().php")
+
+            xhr.onreadystatechange = function () {
+
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    // When the PHP script is executed the content is produces is
+                    // available in the xhr.responseText variable. We can then
+                    // add it to the page
+                    document.getElementById("comments").innerHTML = xhr.responseText;
+                }
+            };
+
+            xhr.send(null);
+        }
+
+        function getUsers(){
+            var request = "getUsers.php?search_term="+escape("Woot");
+
+            var xhr = new XMLHttpRequest();
+            xhr.open ("GET", request);
+
+            xhr.onreadystatechange = function () {
+
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    // When the PHP script is executed the content is produces is
+                    // available in the xhr.responseText variable. We can then
+                    // add it to the page
+                    document.getElementById("options").innerHTML = xhr.responseText;
+                }
+            };
+
+            xhr.send(null);
+        }
+
+        function sendMessage(){
+            //Insert into blogcomments (text, userID, time) Values ('What up ma dudes', 3, now())
+            var params = 'message=' + document.getElementById('message').value + '&userID=' + document.getElementById('userDropDown').value;
+            console.log(params)
+            var xmlho = new XMLHttpRequest();
+            xmlho.open("POST", "sendMessage.php", true);
+            xmlho.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+            xmlho.send(params);
+        }
+
+    </script>
+
+
+</head>
+    <body>
+        <header>
+            <h1>Live Blog Chat</h1>
+            <button onclick="location.href='http://webdevcit.com/2020/Sem1/R00175214/Assignment1ALPHAGAMMAZAPPA/newUser.php'" type="button">Create New User</button>
+            <p>Select User: <div id="options"></div></p>
+            <hr>
+            <p><input type="text" id="message"><input type="button" id="send" value="Send Message"></p>
+        </header>
+
+        <hr>
+
+        <div id = "comments"></div>
+        <input id = "refresh" type = "button" value = "Stop Refresh" onclick="clearInterval()">
+
+        <hr>
+
+        <footer>
+            <h3>Eoghan Spillane (R00175214)</h3>
+        </footer>
+    </body>
+</html>

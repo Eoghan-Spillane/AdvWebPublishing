@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f31b94-51ab-42cd-b592-07a4dd7c2f83" name="Default Changelist" comment="" />
+    <list default="true" id="11f31b94-51ab-42cd-b592-07a4dd7c2f83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/Homepage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/ImageUpload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/getComments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/getUsers.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/sendMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP/Lab6/dbsearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP/Lab6/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/homepage.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/newUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/newUser.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,12 +47,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1iaTul2FwOuYGwn8GwHmOlSL5AH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mariadb&#10;mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -32,16 +66,21 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/FTP" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="duplicates.index" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sceer\Desktop\College Work Sem 1\College Projects\AdvWevPublishing\FTP\Lab6" />
       <recent name="E:\College Projects\AdvWevPublishing\FTP\Lab5" />
       <recent name="E:\College Projects\AdvWevPublishing\FTP\Lab4\Files" />
       <recent name="E:\College Projects\AdvWevPublishing\FTP\Lab3" />
       <recent name="E:\College Projects\WEbDevLAb1\FTP" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sceer\Desktop\College Work Sem 1\College Projects\AdvWevPublishing\FTP\Assignment1ALPHAGAMMAZAPPA" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -61,12 +100,30 @@
       <workItem from="1605281126366" duration="4653000" />
       <workItem from="1605362121995" duration="635000" />
       <workItem from="1605571064030" duration="647000" />
-      <workItem from="1605614568331" duration="1407000" />
+      <workItem from="1605614568331" duration="2452000" />
+      <workItem from="1605622473311" duration="4666000" />
+      <workItem from="1605643701834" duration="4628000" />
+      <workItem from="1605655452013" duration="2862000" />
+      <workItem from="1605723603209" duration="641000" />
+      <workItem from="1605732186429" duration="20256000" />
+      <workItem from="1605776057339" duration="7453000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1163" y="69" width="1106" height="826" key="#Deployment" timestamp="1605571704237">
@@ -79,14 +136,19 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1397" y="381" key="#Options/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605617937578" />
+    <state x="1096" y="541" key="#SQL_Dialects" timestamp="1605645603015">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1096" y="541" key="#SQL_Dialects/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605645603015" />
     <state x="1256" y="149" key="#SSH_Configurations" timestamp="1605173903617">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1256" y="149" key="#SSH_Configurations/0.0.3440.1400/-1920.357.1920.1040@0.0.3440.1400" timestamp="1605173903617" />
-    <state x="1137" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605175114765">
+    <state x="1137" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605645613345">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1136" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@0.0.3440.1400" timestamp="1602150228724" />
+    <state x="1137" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605645613345" />
     <state x="1137" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/-1920.357.1920.1040@0.0.3440.1400" timestamp="1605175114765" />
     <state x="1509" y="458" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602148712887">
       <screen x="0" y="0" width="3440" height="1400" />
@@ -98,18 +160,23 @@
     <state x="-1083" y="679" key="FileChooserDialogImpl/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@-1920.341.1920.1040" timestamp="1602150675807" />
     <state x="1500" y="455" key="FileChooserDialogImpl/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@0.0.3440.1400" timestamp="1602148016005" />
     <state x="1500" y="455" key="FileChooserDialogImpl/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605571644736" />
-    <state x="1583" y="579" key="NewPhpFileDialog" timestamp="1605282983564">
+    <state x="1313" y="423" key="NewPhpClassDialog" timestamp="1605747525067">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1313" y="423" key="NewPhpClassDialog/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605747525067" />
+    <state x="1583" y="579" key="NewPhpFileDialog" timestamp="1605747536112">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1583" y="579" key="NewPhpFileDialog/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@0.0.3440.1400" timestamp="1602751813000" />
     <state x="1583" y="579" key="NewPhpFileDialog/0.0.3440.1400/-1920.0.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605282983564" />
+    <state x="1583" y="579" key="NewPhpFileDialog/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605747536112" />
     <state x="1583" y="579" key="NewPhpFileDialog/0.0.3440.1400/-1920.357.1920.1040@0.0.3440.1400" timestamp="1605175167849" />
-    <state x="1589" y="296" width="1117" height="710" key="SettingsEditor" timestamp="1605617986299">
+    <state x="1589" y="296" width="1117" height="710" key="SettingsEditor" timestamp="1605628632685">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="-1367" y="387" width="1117" height="710" key="SettingsEditor/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@-1920.341.1920.1040" timestamp="1602150892761" />
     <state x="1589" y="296" key="SettingsEditor/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@0.0.3440.1400" timestamp="1602412537580" />
-    <state x="1589" y="296" key="SettingsEditor/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605617986299" />
+    <state x="1589" y="296" key="SettingsEditor/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605628632685" />
     <state x="1973" y="381" key="ftp.server.browser" timestamp="1602148020815">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
@@ -118,5 +185,9 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1590" y="592" key="publish.login/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@0.0.3440.1400" timestamp="1602146018272" />
+    <state x="1518" y="567" key="webDeployment.PermissionsDialog" timestamp="1605736739675">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1518" y="567" key="webDeployment.PermissionsDialog/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605736739675" />
   </component>
 </project>
