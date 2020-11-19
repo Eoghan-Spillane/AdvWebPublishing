@@ -24,10 +24,11 @@
 
     /* Send the SQL query to the database and store the result */
     //$result = mysqli_query ($db, "SELECT * FROM blogcomments;");
-    $result = mysqli_query($db, "Select U.name, U.avatar, b.text, b.time from Users U, blogcomments b where U.id = b.userID order by b.time desc;");
+    $result = mysqli_query($db, "Select U.name, U.avatar, b.text, b.time from Users U, blogcomments b where U.id = b.userID order by b.time desc limit 20;");
 
+    $counter = 0;
     /* loop through each row of the resuts */
-    while ($row = mysqli_fetch_array ($result)) {
+    while ($row = mysqli_fetch_array ($result) and counter < 20) {
         /* get the title from the current row */
         //echo "<div class = 'result'>{$row['text']}</div>\n";
 
@@ -35,11 +36,11 @@
             echo "
             <div class = 'result'>
             <p><img src='{$row['avatar']}' width='5%'> {$row['name']} says:</p>
-            <p>{$row['text']}</p>
+            <p>{$row['time']} - {$row['text']}</p>
             </div>\n
         ";
         }else{
-            echo "<div class = 'result'><p>{$row['name']} says:</p><p>{$row['text']}</p></div>\n";
+            echo "<div class = 'result'><p>{$row['name']} says:</p><p>{$row['time']} - {$row['text']}</p></div>\n";
         }
 
 

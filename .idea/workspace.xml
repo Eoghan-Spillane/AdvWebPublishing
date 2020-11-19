@@ -20,17 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11f31b94-51ab-42cd-b592-07a4dd7c2f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/Homepage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/ImageUpload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/getComments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/getUsers.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/sendMessage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/Lab6/dbsearch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/Lab6/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/homepage.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/newUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/newUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/Homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/Homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/getComments.php" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/getComments.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +98,7 @@
       <workItem from="1605655452013" duration="2862000" />
       <workItem from="1605723603209" duration="641000" />
       <workItem from="1605732186429" duration="20256000" />
-      <workItem from="1605776057339" duration="7453000" />
+      <workItem from="1605776057339" duration="10664000" />
     </task>
     <servers />
   </component>
