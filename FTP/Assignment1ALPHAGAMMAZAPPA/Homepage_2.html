@@ -94,7 +94,6 @@
             xhr.open ("GET", request);
 
             xhr.onreadystatechange = function () {
-
                 if (xhr.readyState === 4 && xhr.status === 200) {
                     // When the PHP script is executed the content is produces is
                     // available in the xhr.responseText variable. We can then
@@ -114,7 +113,7 @@
                 return;
             }else{
                 //Insert into blogcomments (text, userID, time) Values ('What up ma dudes', 3, now())
-                var params = 'message=' + escape(document.getElementById('message').value) + '&userID=' + escape(document.getElementById('userDropDown').value);
+                var params = 'message=' + document.getElementById('message').value + '&userID=' + document.getElementById('userDropDown').value;
                 console.log(params)
                 var xmlho = new XMLHttpRequest();
                 xmlho.open("POST", "sendMessage.php", true);
@@ -127,24 +126,24 @@
 
 
 </head>
-    <body>
-        <header>
-            <h1>Live Blog Chat</h1>
-            <button onclick="location.href='http://webdevcit.com/2020/Sem1/R00175214/Assignment1ALPHAGAMMAZAPPA/newUser.php'" type="button">Create New User</button>
-            <p>Select User: <div id="options"></div></p>
-            <hr>
-            <p><input type="text" id="message"><input type="button" id="send" value="Send Message"></p>
-        </header>
+<body>
+<header>
+    <h1>Live Blog Chat</h1>
+    <button onclick="location.href='http://webdevcit.com/2020/Sem1/R00175214/Assignment1ALPHAGAMMAZAPPA/newUser.php'" type="button">Create New User</button>
+    <p>Select User: <div id="options"></div></p>
+    <hr>
+    <p><input type="text" id="message"><input type="button" id="send" value="Send Message"></p>
+</header>
 
-        <hr>
+<hr>
 
-        <div id = "comments"></div>
+<div id = "comments"></div>
 <!--        <input id = "refresh" type = "button" value = "Stop Refresh" onclick="clearInterval()">-->
 
-        <hr>
+<hr>
 
-        <footer>
-            <h3>Eoghan Spillane (R00175214)</h3>
-        </footer>
-    </body>
+<footer>
+    <h3>Eoghan Spillane (R00175214)</h3>
+</footer>
+</body>
 </html>

@@ -42,8 +42,6 @@
         }else{
             echo "<div class = 'result'><p>{$row['name']} says:</p><p>{$row['time']} - {$row['text']}</p></div>\n";
         }
-
-
     }
 ?>
 

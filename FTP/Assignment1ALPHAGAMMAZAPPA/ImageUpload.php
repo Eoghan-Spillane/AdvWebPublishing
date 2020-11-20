@@ -9,6 +9,13 @@
 
     $username = $_POST['caption'];
 
+    if($username === null){
+        echo "<h1>User Not Created:</h1>";
+        echo "<p>Please Enter a Valid Name</p>";
+        echo "<a href='http://webdevcit.com/2020/Sem1/R00175214/Assignment1ALPHAGAMMAZAPPA/newUser.php'><button>Enter A Username</button></a>";
+        exit();
+    }
+
     //Get data about file
     $tmp_name = $_FILES['uploadfile']['tmp_name'];
     $originalname = $_FILES['uploadfile']['name'];

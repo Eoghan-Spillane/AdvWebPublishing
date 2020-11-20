@@ -23,7 +23,7 @@
 <!--                <input type="submit">-->
 <!--            </form>-->
 
-            <?php
+           <?php
 //                $db = mysqli_connect("127.0.0.1", "R00175214_db", "TookWheelArms");
 //
 //                if (!$db) {

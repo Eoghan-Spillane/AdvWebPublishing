@@ -1,0 +1,134 @@
+<html>
+<head>
+
+<style>
+
+
+#output{
+
+width: 300px;
+height: 300px;
+border: 1px solid black;
+overflow: scroll;
+}
+
+
+.result {
+font-family: helvetica, sans-serif;
+background: #aaaaaa; 
+border-top: 1px solid black;
+padding: 5px;
+
+}
+
+
+.result:hover {
+
+background: white;
+
+
+
+}
+
+</style>
+
+<title>Ajax Search</title>
+<script>
+
+window.addEventListener('load', init);
+
+
+function init () {
+
+
+document.getElementById("searchButton").addEventListener('click', startSearch);
+
+}
+
+
+
+// This function gets called when you click on the Search Button 
+
+function startSearch() {
+
+
+	// Construct the request by adding the search term to the URL of the script
+	// (if you are using GET). You must escape the search term 
+	// to make sure it is safe to use
+	var request = "dbsearch.php?search_term="+escape(document.getElementById('term').value);
+	
+	
+	// display message that will be replaced by the returning data
+	document.getElementById("output").innerHTML = "searching...";
+
+	// Set up the XMLHttpRequest object
+	
+	var xhr = new XMLHttpRequest();
+   	xhr.open ("GET", request);
+   	
+   	xhr.onreadystatechange = function ()
+   	{
+       if (xhr.readyState == 4 && xhr.status == 200)
+		{
+		// When the PHP script is executed the content is produces is 
+		// available in the xhr.responseText variable. We can then 
+		// add it to the page
+		
+		var incoming = xhr.responseXML;
+		
+		// Create an array of objects representing all the post tags
+		// in the XML
+		var results = incoming.getElementsByTagName('post');
+		
+		
+		// Clear out the contents of the element we want to 
+		// display new content in
+		document.getElementById("output").innerHTML = "";
+		
+		// Calculate how many results there were (i.e. how many <post> tags in the array)
+		var nr = results.length;
+		
+		// Add this number to the page
+		document.getElementById("nr").innerHTML = nr;
+		
+		// Loop through the <post> tags and add their content to the page
+		for (var i = 0; i < nr; i++)
+		{
+		
+		
+			// We search inside the current post tag for the content of its title tag
+			var heading = results[i].getElementsByTagName('title')[0].firstChild.data;
+			
+			// We search inside the current post tag for the content of its title tag
+			var author = results[i].getElementsByTagName('author')[0].firstChild.data;
+			
+			document.getElementById("output").innerHTML += "<div class = 'result'>" + author + ": " + heading + "</div>" ;
+		}
+	} 		
+};
+
+// Send the request	
+xhr.send(null);
+}
+
+
+
+
+
+</script>
+
+</head>
+<body>
+
+<p>Type a single search term and press "Search"</p>
+<p><input type = "text" id = "term">
+
+<!-- We don't use a submit button with Ajax. We use a normal button instead.-->
+<input id = "searchButton" type = "button" value = "Search">
+
+<h1><span id = "nr"></span> Results</h1>
+
+<div id = "output">
+</div>
+</body>
+</html>

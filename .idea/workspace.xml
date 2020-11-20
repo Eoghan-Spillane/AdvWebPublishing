@@ -20,8 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11f31b94-51ab-42cd-b592-07a4dd7c2f83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/Homepage_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/getComments_2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP/Lab6_2/dbsearch.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP/Lab6_2/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/Homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/Homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/ImageUpload.php" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/ImageUpload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/getComments.php" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/getComments.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/newUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/newUser.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,15 +71,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sceer\Desktop\College Work Sem 1\College Projects\AdvWevPublishing\FTP\Assignment1ALPHAGAMMAZAPPA" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sceer\Desktop\College Work Sem 1\College Projects\AdvWevPublishing\FTP\Lab6_2" />
       <recent name="C:\Users\sceer\Desktop\College Work Sem 1\College Projects\AdvWevPublishing\FTP\Lab6" />
       <recent name="E:\College Projects\AdvWevPublishing\FTP\Lab5" />
       <recent name="E:\College Projects\AdvWevPublishing\FTP\Lab4\Files" />
       <recent name="E:\College Projects\AdvWevPublishing\FTP\Lab3" />
-      <recent name="E:\College Projects\WEbDevLAb1\FTP" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sceer\Desktop\College Work Sem 1\College Projects\AdvWevPublishing\FTP\Assignment1ALPHAGAMMAZAPPA" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -97,7 +105,10 @@
       <workItem from="1605655452013" duration="2862000" />
       <workItem from="1605723603209" duration="641000" />
       <workItem from="1605732186429" duration="20256000" />
-      <workItem from="1605776057339" duration="11636000" />
+      <workItem from="1605776057339" duration="16872000" />
+      <workItem from="1605812830028" duration="1967000" />
+      <workItem from="1605824494329" duration="2749000" />
+      <workItem from="1605896874809" duration="759000" />
     </task>
     <servers />
   </component>
@@ -155,12 +166,12 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1313" y="423" key="NewPhpClassDialog/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605747525067" />
-    <state x="1583" y="579" key="NewPhpFileDialog" timestamp="1605747536112">
+    <state x="1583" y="579" key="NewPhpFileDialog" timestamp="1605896976681">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1583" y="579" key="NewPhpFileDialog/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@0.0.3440.1400" timestamp="1602751813000" />
     <state x="1583" y="579" key="NewPhpFileDialog/0.0.3440.1400/-1920.0.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605282983564" />
-    <state x="1583" y="579" key="NewPhpFileDialog/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605747536112" />
+    <state x="1583" y="579" key="NewPhpFileDialog/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605896976681" />
     <state x="1583" y="579" key="NewPhpFileDialog/0.0.3440.1400/-1920.357.1920.1040@0.0.3440.1400" timestamp="1605175167849" />
     <state x="1589" y="296" width="1117" height="710" key="SettingsEditor" timestamp="1605628632685">
       <screen x="0" y="0" width="3440" height="1400" />
