@@ -61,15 +61,15 @@
 
         <header>
             <h1>Create New User</h1>
+
             <hr>
+
             <form action = "ImageUpload.php" enctype = "multipart/form-data" method = "post">
                 <p>User Avatar: <input type = "file" name = "uploadfile">
                 <p>User Name: <input type = "text" name = "caption">
                 <p><input type = submit>
             </form>
 
-
-<!--            <button onclick="location.href='http://webdevcit.com/2020/Sem1/R00175214/Assignment1ALPHAGAMMAZAPPA/newUser.php'" type="button">Create New User</button>-->
         </header>
 
 <!--            <form action="newUser.php" method="post">-->

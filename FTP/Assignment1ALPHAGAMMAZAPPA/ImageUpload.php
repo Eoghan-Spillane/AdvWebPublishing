@@ -33,13 +33,6 @@
             width: 10%;
         }
 
-        /*div{*/
-        /*    display: block;*/
-        /*    margin-left: auto;*/
-        /*    margin-right: auto;*/
-        /*    width: 100%;*/
-        /*}*/
-
         #comments{
             align-self: center;
             width: 100%;
@@ -95,7 +88,6 @@
     if ($newname == "d41d8cd98f00b204e9800998ecf8427e.") {
         echo "<h1>User Created</h1>";
         echo "<hr>";
-//        echo "<div id = 'outer'><img src = $url width='5%'>";
         echo "<br>Username: $username";
     }
     else {
@@ -104,7 +96,6 @@
         echo "<div id = 'outer'><img src = $url width='5%'>";
         echo "<br><p>Username: $username</p>";
     }
-
 
     //Storing
     $db = mysqli_connect("127.0.0.1", "R00175214_db", "TookWheelArms");
@@ -140,9 +131,11 @@
 
     ?>
 
+    //Buttons for bringing the user back to their place of origin
     <footer>
         <p><button onclick="location.href='http://webdevcit.com/2020/Sem1/R00175214/Assignment1ALPHAGAMMAZAPPA/Homepage.html'" type="button">Return to Homepage Part 1</button></p>
         <p><button onclick="location.href='http://webdevcit.com/2020/Sem1/R00175214/Assignment1ALPHAGAMMAZAPPA/Homepage_2.html'" type="button">Return to Homepage Part 2</button></p>
         <p><button onclick="location.href='http://webdevcit.com/2020/Sem1/R00175214/Assignment1ALPHAGAMMAZAPPA/newUser.php'" type="button">Create Another User</button></p>
+        <p><button onclick="location.href='http://webdevcit.com/2020/Sem1/R00175214/Assignment1ALPHAGAMMAZAPPA/index.html'" type="button">Index</button></p>
     </footer>
 </body>

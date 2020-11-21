@@ -63,6 +63,7 @@
     <script>
         window.onload = init;
 
+        //This gets the whole website going when you open the site.
         function init () {
             document.getElementById("send").onclick = sendMessage;
             document.getElementById("message").addEventListener('keypress', checkKeyPressed);
@@ -74,6 +75,7 @@
             }, 1000);
         }
 
+        //This code checks for it the enter key is pressed. It's called above.
         function checkKeyPressed(e) {
             var code = e.keyCode;
 
@@ -83,21 +85,16 @@
             }
         }
 
+
         function getComments(){
+            //I don't know why I did it this way, but it works and any changes didn't play nicely
             var request = "getComments.php?search_term="+escape("Woot");
-
-            //Set up the XMLHttpRequest object
-
             var xhr = new XMLHttpRequest();
             xhr.open ("GET", request);
-            //xhr.open("GET", "getComments().php")
 
             xhr.onreadystatechange = function () {
 
                 if (xhr.readyState === 4 && xhr.status === 200) {
-                    // When the PHP script is executed the content is produces is
-                    // available in the xhr.responseText variable. We can then
-                    // add it to the page
                     document.getElementById("comments").innerHTML = xhr.responseText;
                 }
             };
@@ -107,16 +104,11 @@
 
         function getUsers(){
             var request = "getUsers.php?search_term="+escape("Woot");
-
             var xhr = new XMLHttpRequest();
             xhr.open ("GET", request);
 
             xhr.onreadystatechange = function () {
-
                 if (xhr.readyState === 4 && xhr.status === 200) {
-                    // When the PHP script is executed the content is produces is
-                    // available in the xhr.responseText variable. We can then
-                    // add it to the page
                     document.getElementById("options").innerHTML = xhr.responseText;
                 }
             };
@@ -124,20 +116,26 @@
         }
 
         function sendMessage(){
+            //Checking that a user has been selected and that a message has been typed
+
             if(document.getElementById('message').value === ""){
                 alert("No Message Entered");
                 return;
+
             }else if(document.getElementById('userDropDown').value === "1"){
                 alert("Please Select a user profile");
                 return;
+
             }else{
                 //Insert into blogcomments (text, userID, time) Values ('What up ma dudes', 3, now())
                 var params = 'message=' + escape(document.getElementById('message').value) + '&userID=' + escape(document.getElementById('userDropDown').value);
                 console.log(params)
+
                 var xmlho = new XMLHttpRequest();
                 xmlho.open("POST", "sendMessage.php", true);
                 xmlho.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                 xmlho.send(params);
+
                 document.getElementById('message').value = "";
             }
         }
@@ -158,7 +156,6 @@
         <hr>
 
         <div id = "comments"></div>
-<!--        <input id = "refresh" type = "button" value = "Stop Refresh" onclick="clearInterval()">-->
 
         <hr>
 

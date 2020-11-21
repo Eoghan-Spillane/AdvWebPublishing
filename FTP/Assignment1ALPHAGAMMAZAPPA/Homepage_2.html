@@ -118,7 +118,6 @@
 
                     for (var i = 0; i < NumberOfComments; i++) {
 
-
                         // var currentId = results[i].getElementsByTagName('id')[0].firstChild.data;
                         //
                         // if(currentId === lastId){
@@ -126,7 +125,7 @@
                         //     return;
                         // }
 
-
+                        //This checks if the user has an avatar and formats their message differently
                         if(results[i].getElementsByTagName('avatar')[0].firstChild.data === ""){
                             var name = results[i].getElementsByTagName('name')[0].firstChild.data;
                             var time = results[i].getElementsByTagName('time')[0].firstChild.data;
@@ -142,14 +141,13 @@
                             document.getElementById("comments").innerHTML += "<div class = 'result'>" + "<p><img src='" + avatar + "' width='5%'>" + "  " + name + " says:</p>" + "<p>" + time + "- " + text + "</p>" + "</div>";
                         }
 
-
+                        //This is used to check if there has been a new message sent.
                         if(commentId > lastId){
                             console.log(commentId + " > " + lastId)
                             lastId = commentId;
                         }
 
                         console.log(lastId);
-
                     }
 
                 }
@@ -166,9 +164,6 @@
 
             xhr.onreadystatechange = function () {
                 if (xhr.readyState === 4 && xhr.status === 200) {
-                    // When the PHP script is executed the content is produces is
-                    // available in the xhr.responseText variable. We can then
-                    // add it to the page
                     document.getElementById("options").innerHTML = xhr.responseText;
                 }
             };
@@ -186,6 +181,7 @@
                 //Insert into blogcomments (text, userID, time) Values ('What up ma dudes', 3, now())
                 var params = 'message=' + document.getElementById('message').value + '&userID=' + document.getElementById('userDropDown').value;
                 console.log(params)
+
                 var xmlho = new XMLHttpRequest();
                 xmlho.open("POST", "sendMessage.php", true);
                 xmlho.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
