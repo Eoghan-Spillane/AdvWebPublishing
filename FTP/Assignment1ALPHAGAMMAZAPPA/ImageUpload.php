@@ -4,6 +4,7 @@
     <style>
         html{
             background: #1d1c1a;
+            color: #e4d3b7
         }
 
         p{
@@ -101,7 +102,7 @@
         echo "<h1>User Created</h1>";
         echo "<hr>";
         echo "<div id = 'outer'><img src = $url width='5%'>";
-        echo "<br>Username: $username";
+        echo "<br><p>Username: $username</p>";
     }
 
 
@@ -139,5 +140,9 @@
 
     ?>
 
-    <footer><button onclick="location.href='http://webdevcit.com/2020/Sem1/R00175214/Assignment1ALPHAGAMMAZAPPA/Homepage.html'" type="button">Return to Homepage</button></footer>
+    <footer>
+        <p><button onclick="location.href='http://webdevcit.com/2020/Sem1/R00175214/Assignment1ALPHAGAMMAZAPPA/Homepage.html'" type="button">Return to Homepage Part 1</button></p>
+        <p><button onclick="location.href='http://webdevcit.com/2020/Sem1/R00175214/Assignment1ALPHAGAMMAZAPPA/Homepage_2.html'" type="button">Return to Homepage Part 2</button></p>
+        <p><button onclick="location.href='http://webdevcit.com/2020/Sem1/R00175214/Assignment1ALPHAGAMMAZAPPA/newUser.php'" type="button">Create Another User</button></p>
+    </footer>
 </body>
