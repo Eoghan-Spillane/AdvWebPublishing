@@ -53,9 +53,10 @@
 
         .result {
             font-family: helvetica, sans-serif;
-            background: darkslategrey;
+            background: #1d1c1a;
             border-top: 1px solid black;
             padding: 5px;
+            color: #e4d3b7
         }
     </style>
 
@@ -137,6 +138,7 @@
                 xmlho.open("POST", "sendMessage.php", true);
                 xmlho.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
                 xmlho.send(params);
+                document.getElementById('message').value = "";
             }
         }
 

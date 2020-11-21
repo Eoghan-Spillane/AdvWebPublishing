@@ -11,6 +11,8 @@ header('Pragma: no-cache');
 /* connect to database */
 $id = $_GET['commentId'];
 
+console.log(id);
+
 $db = mysqli_connect ("127.0.0.1", "R00175214_db", "TookWheelArms");
 if (!$db) {
     echo "Sorry! Can't connect to database";
@@ -29,24 +31,28 @@ if (!mysqli_select_db ($db, "R00175214_db")) {
     exit();
 }
 
-$safeTerm = mysqli_real_escape_string($db);
-$result = mysqli_query($db, "Select U.name, U.avatar, b.text, b.time from Users U, blogcomments b where U.id = b.userID order by b.time desc limit 20;");
 echo "<results>";
+$safeTerm = mysqli_real_escape_string($db);
+$result = mysqli_query($db, "Select U.name, U.avatar, b.text, b.time, b.id from Users U, blogcomments b where U.id = b.userID order by b.time desc limit 100;");
+
 while ($row = mysqli_fetch_array ($result)) {
-//    if (isset($row['avatar'])){
+    if (isset($row['avatar'])){
         echo "<post>";
-//            echo "<avatar> <![CDATA[{$row['avatar']}]]></avatar>\n";
-            echo "<name> <![CDATA[{$row['name']}]]></name>\n";
-            echo "<time> <![CDATA[{$row['time']}]]></time>\n";
-            echo "<text> <![CDATA[{$row['text']}]]></text>\n";
+            echo "<avatar><![CDATA[{$row['avatar']}]]></avatar>\n";
+            echo "<name><![CDATA[{$row['name']}]]></name>\n";
+            echo "<time><![CDATA[{$row['time']}]]></time>\n";
+            echo "<text><![CDATA[{$row['text']}]]></text>\n";
+            echo "<id><![CDATA[{$row['id']}]]></id>\n";
         echo "</post>";
-//    }else{
-//        echo "<post>";
-//        echo "<name> <![CDATA[{$row['name']}]]></name>\n";
-//        echo "<time> <![CDATA[{$row['time']}]]></time>\n";
-//        echo "<text> <![CDATA[{$row['text']}]]></text>\n";
-//        echo "</post>";
-//    }
+    }else{
+        echo "<post>";
+        echo "<avatar><![CDATA[{$row['avatar']}]]></avatar>\n";
+        echo "<name><![CDATA[{$row['name']}]]></name>\n";
+        echo "<time><![CDATA[{$row['time']}]]></time>\n";
+        echo "<text><![CDATA[{$row['text']}]]></text>\n";
+        echo "<id><![CDATA[{$row['id']}]]></id>\n";
+        echo "</post>";
+    }
 }
 echo "</results>";
 
