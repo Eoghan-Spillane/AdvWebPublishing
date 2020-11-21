@@ -20,16 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="11f31b94-51ab-42cd-b592-07a4dd7c2f83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/Homepage_2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/getComments_2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/Lab6_2/dbsearch.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/Lab6_2/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/Homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/Homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/Homepage_2.html" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/Homepage_2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/ImageUpload.php" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/ImageUpload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/getComments.php" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/getComments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/getComments_2.php" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/getComments_2.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/newUser.php" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Assignment1ALPHAGAMMAZAPPA/newUser.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/Lab6_2/dbsearch.php" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Lab6_2/dbsearch.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/Lab6_2/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/Lab6_2/search.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,8 @@
       <workItem from="1605776057339" duration="16872000" />
       <workItem from="1605812830028" duration="1967000" />
       <workItem from="1605824494329" duration="2749000" />
-      <workItem from="1605896874809" duration="759000" />
+      <workItem from="1605896874809" duration="6165000" />
+      <workItem from="1605970246563" duration="3700000" />
     </task>
     <servers />
   </component>
@@ -146,11 +146,11 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1256" y="149" key="#SSH_Configurations/0.0.3440.1400/-1920.357.1920.1040@0.0.3440.1400" timestamp="1605173903617" />
-    <state x="1137" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605645613345">
+    <state x="1137" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605972117727">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state x="1136" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.341.1920.1040/0.0.3440.1400/62.-1080.1858.1080@0.0.3440.1400" timestamp="1602150228724" />
-    <state x="1137" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605645613345" />
+    <state x="1137" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/-1920.341.1920.1040/62.-1080.1858.1080@0.0.3440.1400" timestamp="1605972117727" />
     <state x="1137" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400/-1920.357.1920.1040@0.0.3440.1400" timestamp="1605175114765" />
     <state x="1509" y="458" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602148712887">
       <screen x="0" y="0" width="3440" height="1400" />

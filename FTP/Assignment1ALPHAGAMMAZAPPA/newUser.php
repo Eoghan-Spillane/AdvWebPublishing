@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <title>New User</title>
+        <style>
+            html{
+                background: #1d1c1a;
+            }
 
+            p{
+                color: #e4d3b7;
+            }
+
+            h1{
+                color: #e4d3b7;
+            }
+
+            h3{
+                color: #e4d3b7
+            }
+
+            body{
+                margin: auto;
+                width: 60%;
+                padding: 10px;
+                align-content: center;
+                background: #393833;
+
+            }
+
+            title{
+                margin: auto;
+                width: 10%;
+            }
+
+            /*div{*/
+            /*    display: block;*/
+            /*    margin-left: auto;*/
+            /*    margin-right: auto;*/
+            /*    width: 100%;*/
+            /*}*/
+
+            #comments{
+                align-self: center;
+                width: 100%;
+                height: 400px;
+                border: 1px solid black;
+                /*overflow: scroll;*/
+                overflow: auto;
+            }
+
+            .result {
+                font-family: helvetica, sans-serif;
+                background: darkslategrey;
+                border-top: 1px solid black;
+                padding: 5px;
+            }
+        </style>
     </head>
     <body>
 
         <header>
             <h1>Create New User</h1>
+            <hr>
             <form action = "ImageUpload.php" enctype = "multipart/form-data" method = "post">
                 <p>User Avatar: <input type = "file" name = "uploadfile">
                 <p>User Name: <input type = "text" name = "caption">
@@ -48,6 +103,7 @@
             ?>
         
         <footer>
+            <hr>
             <h3>Eoghan Spillane (R00175214)</h3>
         </footer>
 

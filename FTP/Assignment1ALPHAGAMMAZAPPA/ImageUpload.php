@@ -1,4 +1,61 @@
+<head>
+    <title>User Creation</title>
 
+    <style>
+        html{
+            background: #1d1c1a;
+        }
+
+        p{
+            color: #e4d3b7;
+        }
+
+        h1{
+            color: #e4d3b7;
+        }
+
+        h3{
+            color: #e4d3b7
+        }
+
+        body{
+            margin: auto;
+            width: 60%;
+            padding: 10px;
+            align-content: center;
+            background: #393833;
+
+        }
+
+        title{
+            margin: auto;
+            width: 10%;
+        }
+
+        /*div{*/
+        /*    display: block;*/
+        /*    margin-left: auto;*/
+        /*    margin-right: auto;*/
+        /*    width: 100%;*/
+        /*}*/
+
+        #comments{
+            align-self: center;
+            width: 100%;
+            height: 400px;
+            border: 1px solid black;
+            /*overflow: scroll;*/
+            overflow: auto;
+        }
+
+        .result {
+            font-family: helvetica, sans-serif;
+            background: darkslategrey;
+            border-top: 1px solid black;
+            padding: 5px;
+        }
+    </style>
+</head>
 <body>
     <?php
     // Function to find file extension of provided filename
@@ -9,8 +66,9 @@
 
     $username = $_POST['caption'];
 
-    if($username === null){
+    if($username === null or $username === ""){
         echo "<h1>User Not Created:</h1>";
+        echo "<hr>";
         echo "<p>Please Enter a Valid Name</p>";
         echo "<a href='http://webdevcit.com/2020/Sem1/R00175214/Assignment1ALPHAGAMMAZAPPA/newUser.php'><button>Enter A Username</button></a>";
         exit();
@@ -35,11 +93,13 @@
     // If the upload was successful display the contents.
     if ($newname == "d41d8cd98f00b204e9800998ecf8427e.") {
         echo "<h1>User Created</h1>";
+        echo "<hr>";
 //        echo "<div id = 'outer'><img src = $url width='5%'>";
         echo "<br>Username: $username";
     }
     else {
         echo "<h1>User Created</h1>";
+        echo "<hr>";
         echo "<div id = 'outer'><img src = $url width='5%'>";
         echo "<br>Username: $username";
     }

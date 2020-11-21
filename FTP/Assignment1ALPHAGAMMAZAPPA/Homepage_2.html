@@ -5,12 +5,29 @@
     <title>LiveBlog</title>
 
     <style>
+        html{
+            background: #1d1c1a;
+        }
+
+        p{
+            color: #e4d3b7;
+        }
+
+        h1{
+            color: #e4d3b7;
+        }
+
+        h3{
+            color: #e4d3b7
+        }
+
         body{
             margin: auto;
             width: 60%;
             padding: 10px;
             align-content: center;
-            background: darkcyan;
+            background: #393833;
+
         }
 
         title{
@@ -66,21 +83,37 @@
         }
 
         function getComments(){
-            var request = "getComments.php?search_term="+escape("Woot");
+            var request = "getComments.php?commentId="+escape("1");
 
             //Set up the XMLHttpRequest object
 
             var xhr = new XMLHttpRequest();
             xhr.open ("GET", request);
-            //xhr.open("GET", "getComments().php")
 
             xhr.onreadystatechange = function () {
 
                 if (xhr.readyState === 4 && xhr.status === 200) {
-                    // When the PHP script is executed the content is produces is
-                    // available in the xhr.responseText variable. We can then
-                    // add it to the page
-                    document.getElementById("comments").innerHTML = xhr.responseText;
+                    //document.getElementById("comments").innerHTML = xhr.responseText;
+
+                    var incoming = xhr.responseXML;
+                    var results = incoming.getElementsByTagName('results');
+
+                    //document.getElementById("comments").innerHTML = "";
+
+                    var  NumberOfComments = results.length;
+                    document.getElementById("NumberOfComments").innerHTML = NumberOfComments;
+
+                    for (var i = 0; i < NumberOfComments; i++) {
+                        // We search inside the current post tag for the content of its title tag
+                        var name = results[i].getElementsByTagName('name')[0].firstChild.data;
+
+                        // We search inside the current post tag for the content of its title tag
+                        var time = results[i].getElementsByTagName('time')[0].firstChild.data;
+                        var text = results[i].getElementsByTagName('text')[0].firstChild.data;
+
+                        document.getElementById("comments").innerHTML += "<div class = 'result'>" + time + "- " + name + ": " + text + "</div>" ;
+                    }
+
                 }
             };
 
@@ -136,10 +169,8 @@
 </header>
 
 <hr>
-
+<p><h3>Number of Comments: </h3><span id = "NumberOfComments"></span></p>
 <div id = "comments"></div>
-<!--        <input id = "refresh" type = "button" value = "Stop Refresh" onclick="clearInterval()">-->
-
 <hr>
 
 <footer>

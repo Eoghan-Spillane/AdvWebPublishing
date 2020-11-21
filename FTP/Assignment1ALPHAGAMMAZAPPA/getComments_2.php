@@ -1,7 +1,16 @@
 <?php /** @noinspection ALL */
 
+header("Content-type: text/xml");
+
+header('Expires: Mon, 26 Jul 1997 05:00:00 GMT');
+header('Cache-Control: no-store, no-cache, must-revalidate');
+header('Cache-Control: post-check=0, pre-check=0', FALSE);
+header('Pragma: no-cache');
+
+
 /* connect to database */
-$term = $_GET['search_term'];
+$id = $_GET['commentId'];
+
 $db = mysqli_connect ("127.0.0.1", "R00175214_db", "TookWheelArms");
 if (!$db) {
     echo "Sorry! Can't connect to database";
@@ -21,26 +30,24 @@ if (!mysqli_select_db ($db, "R00175214_db")) {
 }
 
 $safeTerm = mysqli_real_escape_string($db);
-
-/* Send the SQL query to the database and store the result */
-//$result = mysqli_query ($db, "SELECT * FROM blogcomments;");
 $result = mysqli_query($db, "Select U.name, U.avatar, b.text, b.time from Users U, blogcomments b where U.id = b.userID order by b.time desc limit 20;");
-
-$counter = 0;
-/* loop through each row of the resuts */
-while ($row = mysqli_fetch_array ($result) and counter < 20) {
-    /* get the title from the current row */
-    //echo "<div class = 'result'>{$row['text']}</div>\n";
-
-    if (isset($row['avatar'])){
-        echo "
-            <div class = 'result'>
-            <p><img src='{$row['avatar']}' width='5%'> {$row['name']} says:</p>
-            <p>{$row['time']} - {$row['text']}</p>
-            </div>\n
-        ";
-    }else{
-        echo "<div class = 'result'><p>{$row['name']} says:</p><p>{$row['time']} - {$row['text']}</p></div>\n";
-    }
+echo "<results>";
+while ($row = mysqli_fetch_array ($result)) {
+//    if (isset($row['avatar'])){
+        echo "<post>";
+//            echo "<avatar> <![CDATA[{$row['avatar']}]]></avatar>\n";
+            echo "<name> <![CDATA[{$row['name']}]]></name>\n";
+            echo "<time> <![CDATA[{$row['time']}]]></time>\n";
+            echo "<text> <![CDATA[{$row['text']}]]></text>\n";
+        echo "</post>";
+//    }else{
+//        echo "<post>";
+//        echo "<name> <![CDATA[{$row['name']}]]></name>\n";
+//        echo "<time> <![CDATA[{$row['time']}]]></time>\n";
+//        echo "<text> <![CDATA[{$row['text']}]]></text>\n";
+//        echo "</post>";
+//    }
 }
+echo "</results>";
+
 ?>

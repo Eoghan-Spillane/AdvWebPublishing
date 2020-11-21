@@ -73,15 +73,15 @@ echo "<post>";
 
 /* get the title from the current row */
 
-echo "<title><![CDATA[{$row['post_title']}]]></title>\n";
+	echo "<title> <![CDATA[{$row['post_title']}]]></title>\n";
 
 /* get the author name from the current row */
 
-echo "<author><![CDATA[{$row['display_name']}]]></author>\n";
+	echo "<author><![CDATA[{$row['display_name']}]]></author>\n";
 
 /* get the author post content from the current row */
 
-echo "<content><![CDATA[{$row['post_content']}]]></content>\n";
+	echo "<content><![CDATA[{$row['post_content']}]]></content>\n";
 
 /* Close the containing tag */
 
