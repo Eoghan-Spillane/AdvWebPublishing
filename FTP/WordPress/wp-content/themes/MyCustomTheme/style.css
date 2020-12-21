@@ -1,0 +1,49 @@
+/*
+Theme Name: My Custom Theme
+Author: Eoghan Spillane
+Author URI: http://webdevcit.com/2020/Sem1/R00175214/WordPress/
+Description: Custom WordPress Theme for Project
+Version: 1.0.0
+*/
+
+/*https://colorswall.com/palette/5661/*/
+
+body{
+    font-family: "Calibri Light", sans-serif;
+    font-size: 16px;
+    color: #bebebe;
+    background-color: #181818;
+}
+
+.site-header{
+    border-bottom: 3px solid #0c0c0c;
+}
+
+.site-footer{
+    align-self: center;
+    border-top: 3px solid #0c0c0c;
+}
+a:link, a:visited {
+    color: #2069e0;
+}
+
+p{
+    line-height: 1.7em;
+}
+
+div.container {
+    max-width: 80%;
+    margin: 5% auto;
+    padding: 5%;
+    background-color: #484646;
+}
+
+article.post {
+    border-bottom: 1px solid #292727;
+    font-palette: dark;
+}
+
+article.post.last-of-type {
+    border-bottom: none;
+}
+
