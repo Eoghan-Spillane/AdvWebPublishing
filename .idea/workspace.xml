@@ -19,14 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f31b94-51ab-42cd-b592-07a4dd7c2f83" name="Default Changelist" comment="Saved locally and setup up wordpress">
-      <change afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/sidebar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/style.css" afterDir="false" />
+    <list default="true" id="11f31b94-51ab-42cd-b592-07a4dd7c2f83" name="Default Changelist" comment="Basic Theme and style.css">
+      <change afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/404.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/author.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/front-page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/home.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/page.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/search.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/FTP/WordPress/wp-content/themes/MyCustomTheme/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +127,8 @@
       <workItem from="1608390785878" duration="5288000" />
       <workItem from="1608487974624" duration="3572000" />
       <workItem from="1608556347740" duration="1235000" />
-      <workItem from="1608557980320" duration="5207000" />
+      <workItem from="1608557980320" duration="15764000" />
+      <workItem from="1608643319400" duration="14449000" />
     </task>
     <task id="LOCAL-00001" summary="Saved locally and setup up wordpress">
       <created>1608557780131</created>
@@ -129,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608557780131</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Basic Theme and style.css">
+      <created>1608563500412</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608563500412</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,7 +165,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Saved locally and setup up wordpress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Saved locally and setup up wordpress" />
+    <MESSAGE value="Basic Theme and style.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic Theme and style.css" />
   </component>
   <component name="WordPressConfiguration" enabled="true">
     <wordpressPath>C:\Users\sceer\Desktop\College Work Sem 1\College Projects\AdvWevPublishing\FTP\WordPress</wordpressPath>

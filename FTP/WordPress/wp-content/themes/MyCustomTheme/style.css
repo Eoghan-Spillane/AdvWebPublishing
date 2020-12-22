@@ -8,21 +8,58 @@ Version: 1.0.0
 
 /*https://colorswall.com/palette/5661/*/
 
+/*main background -> #181818*/
+/*text color -> #bebebe*/
+/*page background -> #484646*/
+
 body{
     font-family: "Calibri Light", sans-serif;
     font-size: 16px;
     color: #bebebe;
     background-color: #181818;
+    min-width: 687px;
+}
+
+/*No Idea why this isn't affecting the page itself*/
+div.author-name {
+    border-bottom: 1px solid #292727;
+    font-family: 'Langar', cursive;
+    width: 159%;
+}
+
+.column {
+    float: left;
+}
+
+.left, .right{
+    width: 25%;
 }
 
 .site-header{
-    border-bottom: 3px solid #0c0c0c;
+    border: 3px solid #0c0c0c;
+    background-color: #181818;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -5%;
+    text-align: center;
+}
+
+div.container {
+    padding: 5% 5% 15%;
+    background-color: #484646;
+}
+.page-title{
+    text-align: center;
 }
 
 .site-footer{
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
     align-self: center;
     border-top: 3px solid #0c0c0c;
 }
+
 a:link, a:visited {
     color: #2069e0;
 }
@@ -31,12 +68,6 @@ p{
     line-height: 1.7em;
 }
 
-div.container {
-    max-width: 80%;
-    margin: 5% auto;
-    padding: 5%;
-    background-color: #484646;
-}
 
 article.post {
     border-bottom: 1px solid #292727;
@@ -45,5 +76,34 @@ article.post {
 
 article.post.last-of-type {
     border-bottom: none;
+}
+
+/* Nav Menu */
+.navigation-menu ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+.navigation-menu ul:before, .navigation-menu ul:after {
+    content: "";
+    display: table;
+}
+
+.navigation-menu ul:after {
+    clear: both;
+}
+
+.navigation-menu ul li {
+    list-style: none;
+    float: left;
+}
+
+.navigation-menu ul li a:link, .navigation-menu ul li a:visited {
+    display: block;
+    padding: 12px 17px;
+    border: 2px solid #ecf0f1;
+    border-bottom: none;
+    text-decoration: none;
 }
 
